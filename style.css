@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(239, 255, 196);
+}
+
+body {
+    text-align: center;
+    
+}
+
+.game{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.h1 {
+    text-align: center;
+    margin: 15%;
+    margin-bottom: 3%;
+    font-size: 50px;
+    color: rgb(65, 42, 165);
+}
+
+.h2 {
+    text-align: center;
+    margin: 1.5%;
+    margin-bottom: 1.5%;
+    font-size: 200%;
+    color: rgb(65, 42, 165);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 410px;
+    width: 450px;
+
+}
+
+.box{
+    width: 30%;
+    height: 30%;
+    margin: 4.5px;
+    border-radius: 5px;
+    background-color:white;
+    color: rgb(65, 42, 165);
+    font-size: 55px;
+    font-weight: 10px;
+    
+}
+
+.re_st{
+    margin-top: 2%;
+    width: 150px;
+    height: 40px;
+    box-shadow: 8px;
+
+}
+
+.n_st{
+    margin-top: 1.5%;
+    width: 150px;
+    height: 40px;
+    box-shadow: 8px;
+
+}
+
+.s_st{
+    margin: 50px;
+    width: 150px;
+    height: 40px;
+    box-shadow: 8px;
+
+}
+
+.box:hover{
+    background-color:azure;
+}
+
+.hide{
+    display: none;
+}
+
+@media (max-width:275px) {
+    .box{
+        width: 25%;
+        height: 25%;
+        margin: 4px;
+        border-radius: 5px;
+        background-color:white;
+        color: rgb(65, 42, 165);
+        font-size: 55px;
+        font-weight: 10px;
+        
+    }
+}
